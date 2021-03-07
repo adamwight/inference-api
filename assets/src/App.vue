@@ -1,5 +1,5 @@
 <template>
-	<top-bar />
+  <top-bar />
   <tool-holder />
   <info-footer />
 </template>
@@ -16,16 +16,15 @@ export default {
     // HelloWorld
     InfoFooter,
     ToolHolder,
-    TopBar,
+    TopBar
   }
 };
 </script>
 
 <style lang="scss">
-@use 'assets/legacy.css';
+@use 'assets/legacy.scss';
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
