@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import InfoFooter from "./components/InfoFooter.vue";
 import TopBar from "./components/TopBar.vue";
 import ToolHolder from "./components/ToolHolder.vue";
@@ -13,7 +12,6 @@ import ToolHolder from "./components/ToolHolder.vue";
 export default {
   name: "App",
   components: {
-    // HelloWorld
     InfoFooter,
     ToolHolder,
     TopBar
